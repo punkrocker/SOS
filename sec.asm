@@ -18,10 +18,10 @@ ret
 
 ;Data
 HELLO_MSG:
-db 'Hello World','X',0
+db 'Hello World',0
 
 BYE_MSG:
-db 'BYE',0
+db '...',0
 
 times 510-($-$$) db 0
 dw 0xaa55
