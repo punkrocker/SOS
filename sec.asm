@@ -1,3 +1,4 @@
+;启动方法
 [org 0x7c00]
 mov ah,0x0e
 mov bx,HELLO_MSG
